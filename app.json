@@ -10,6 +10,7 @@
     "scheme": "image-to-pdf",
     "description": "Convert multiple images into a single PDF document offline. Select images from your gallery, preview and reorder them, then generate a PDF instantly.",
     "privacy": "public",
+    "category": "productivity",
     "privacyUrl": "https://github.com/appinifinity/image-to-pdf/blob/main/PRIVACY_POLICY.md",
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -35,8 +36,7 @@
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE"
-      ],
-      "versionCode": 1
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
