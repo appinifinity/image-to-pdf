@@ -57,6 +57,26 @@ Our app requires the following permissions for core functionality:
 - Used only to let you select images from your photo library for PDF conversion
 - We do not access your entire photo library without your explicit permission
 
+### 3. Explicitly Blocked Permissions
+
+To ensure your privacy, we explicitly block the following permissions:
+- Camera access
+- Microphone/audio recording
+- Location services
+- Contacts
+- Phone/SMS
+- Calendar
+- Network/WiFi
+- Bluetooth
+- NFC
+- System settings
+- Package installation
+
+**Why we block these:**
+- Our app only needs to access images you select and save PDFs
+- We do not need any other device capabilities
+- Blocking these permissions protects your privacy
+
 ### Why We Need These Permissions
 
 Without these permissions, the core functionality of the app would not work:

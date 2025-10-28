@@ -69,6 +69,42 @@ Select the following:
    - Is this data collection optional? NO (required for core functionality)
    - Is this data shared? NO
 
+### Explicitly Blocked Permissions
+
+The app explicitly blocks the following permissions to protect user privacy:
+- RECORD_AUDIO (microphone)
+- CAMERA
+- ACCESS_FINE_LOCATION
+- ACCESS_COARSE_LOCATION
+- READ_CONTACTS
+- WRITE_CONTACTS
+- READ_CALL_LOG
+- WRITE_CALL_LOG
+- READ_SMS
+- SEND_SMS
+- RECEIVE_SMS
+- READ_PHONE_STATE
+- CALL_PHONE
+- READ_CALENDAR
+- WRITE_CALENDAR
+- ACCESS_WIFI_STATE
+- CHANGE_WIFI_STATE
+- BLUETOOTH
+- BLUETOOTH_ADMIN
+- NFC
+- VIBRATE
+- WAKE_LOCK
+- INTERNET
+- ACCESS_NETWORK_STATE
+- CHANGE_NETWORK_STATE
+- RECEIVE_BOOT_COMPLETED
+- SYSTEM_ALERT_WINDOW
+- WRITE_SETTINGS
+- REQUEST_INSTALL_PACKAGES
+- REQUEST_DELETE_PACKAGES
+
+These permissions are blocked because the app does not need them for its core functionality.
+
 ### Third-Party Data Sharing
 
 List any third-party SDKs you use:
